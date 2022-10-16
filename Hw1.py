@@ -1,4 +1,4 @@
-'''from abc import ABC
+from abc import ABC
 
 class Area(ABC):
     def area(self):
@@ -25,7 +25,7 @@ class TriangleArea(Area):
         return self.c*self.c/2
 
 rectangle = RectangleArea(20,10)
-print(rectangle.area())'''
+print(rectangle.area())
 
 
 class Counter:
