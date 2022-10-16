@@ -18,11 +18,11 @@ class RectangleArea(Area):
 
 
 class TriangleArea(Area):
-    def __init__(self,c):
-        self.c = c
-        self.h = h
+    def __init__(self,z):
+        self.z = z
+        self.n = n
     def area(self):
-        return self.c*self.c/2
+        return self.z*self.z/2
 
 rectangle = RectangleArea(20,10)
 print(rectangle.area())
