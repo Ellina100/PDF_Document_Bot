@@ -1,4 +1,4 @@
-from abc import ABC
+'''from abc import ABC
 
 class Area(ABC):
     def area(self):
@@ -14,7 +14,7 @@ class RectangleArea(Area):
         self.b = b
         self.a = a
     def area(self):
-        return self.a*self.b
+        return self.a*self.b'''
 
 
 class TriangleArea(Area):
